@@ -1,0 +1,8 @@
+<filename.extension: Description of file>
+Copyright (C) {{cookiecutter.license_year}}, {{cookiecutter.full_name}}
+
+Licensed under the "Attribution-NonCommercial-ShareAlike" Vizsage Public License
+(the "License"). You may not use this file except in compliance with the
+License. For details, see the LICENSE file.
+
+<other documentation goes here>

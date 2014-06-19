@@ -1,0 +1,6 @@
+<filename.extension: Description of file>
+Copyright (c) {{cookiecutter.license_year}}, {{cookiecutter.full_name}}
+
+Licensed under the 3-clause BSD license. For details, see the LICENSE file.
+
+<other documentation goes here>

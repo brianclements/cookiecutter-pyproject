@@ -1,0 +1,12 @@
+{
+    "full_name": "Brian Clements",
+    "email": "brian@brianclements.net",
+    "project_name": "Python Project Template",
+    "repo_name": "pyproject",
+    "project_short_description": "Python Project Template using cookiecutter",
+    "release_date": "2014-01-01",
+    "license_year": "2014",
+    "version": "0.0.1",
+    "github_username": "brianclements",
+    "license": "MIT"
+}
