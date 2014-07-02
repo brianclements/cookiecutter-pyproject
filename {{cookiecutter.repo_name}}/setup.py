@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import os
 import fnmatch
 
@@ -40,8 +43,8 @@ long_description = read_file("README.md") + "\n" + \
 
 # import version
 try:
-    with open(os.path.join(project_path, '_version.py')) as v_import:
-        exec(v_import.read())
+    with open(os.path.join(project_path, project + '/_version.py')) as v_file:
+        exec(v_file.read())
 except:
     __version__ = 'unknown'
 
@@ -80,8 +83,8 @@ config = {
     'tests_require': tests_require,
     'classifiers': classifiers,
     'license': license,
-    'url': 'https://github.com/brianclements/' + project,
-    'download_url': 'https://github.com/brianclements/' + project
+    'url': 'https://github.com/{{cookiecutter.github_url_repo_name}}/' + project,
+    'download_url': 'https://github.com/{{cookiecutter.github_url_repo_name}}/' + project
                     + '/archive/master.zip',
     # Author info
     'author': '{{cookiecutter.full_name}}',
